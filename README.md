@@ -1,5 +1,7 @@
 # Telegram API Proxy
 
+<b>FORK with increased limits</b>
+
 A Cloudflare Worker that acts as a reverse proxy for the Telegram Bot API. Designed to provide stable, unfiltered access to `api.telegram.org` for bots running in restricted regions.
 
 ---
