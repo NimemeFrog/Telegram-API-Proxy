@@ -1,8 +1,8 @@
 const URL_PATH_REGEX = /^\/bot(?<bot_token>[^/]+)\/(?<api_method>[a-zA-Z0-9_]+)/i;
 
 const RATE_LIMITS = {
-    IP:     { max: 100,  window: 60000 },
-    TOKEN:  { max: 200,  window: 60000 },
+    IP:     { max: 1800,  window: 60000 },
+    TOKEN:  { max: 1800,  window: 60000 },
     GLOBAL: { max: 5000, window: 60000 },
     BURST:  { max: 10,   window: 1000  }
 };
